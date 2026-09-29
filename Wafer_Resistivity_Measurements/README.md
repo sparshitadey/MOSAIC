@@ -13,20 +13,28 @@ geometrical corrections used in that extraction explicit and reproducible.
 
 ## 🧪 Data provenance and scope
 
-These measurements build on a substantially larger wafer-characterisation
-campaign carried out by **Simone Banaudi** as part of the LArCADe/MOSAIC
-programme. Simone's full dataset and independent analysis are available here:
+The wafer-characterisation procedure was developed and validated as part of the
+LArCADe/MOSAIC programme, with the measurement geometry, operating procedure and
+basic consistency checks established before extending the study across the wider
+wafer set.
+
+The broader measurement campaign was carried out together with **Simone Banaudi**,
+and includes repeated measurements of individual wafers, resistance-stability
+studies, measurements over multiple current ranges, and samples spanning a much
+wider range of manufacturer-specified resistivities.
+
+The full dataset, together with Simone's broader, independent analysis, is available in
+his repository:
 
 [**Simone Banaudi — LArCADe/MOSAIC wafer measurements**](https://github.com/Simone-Banaudi/LArCADe_MOSAIC_fermilab)
 
-That repository contains a broader measurement programme than the subset
-reproduced here, including repeated measurements of individual wafers,
-resistance-stability studies, measurements performed over multiple current
-ranges, and additional doped-Si samples spanning a wider range of
-manufacturer-specified resistivities.
+The present directory takes a deliberately narrower route through that dataset.
+It focuses on the I–V measurements for which the contact behaviour is sufficiently
+well understood to support a quantitative resistivity extraction, and carries
+those measurements through a consistent geometry-corrected analysis.
 
-The raw measurements required for the analysis in this directory are copied
-locally so that the MOSAIC analysis remains self-contained and reproducible.
+A copy of the raw measurements required here is included locally so that the
+workflow remains self-contained and reproducible.
 
 ### Why only a subset of the wafers?
 
