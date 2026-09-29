@@ -13,8 +13,8 @@ geometrical corrections, and limits of the measurement explicit and reproducible
 
 ## 🧪 Data provenance and scope
 
-The wafer-characterisation procedure was developed and validated as part of the
-LArCADe/MOSAIC programme, with the probe geometry, operating procedure, and basic
+The wafer-characterisation procedure was validated as part of the
+LArCADe/MOSAIC programme using a device built by students many years ago as a Physics Olympiad project, with the probe geometry, operating procedure, and basic
 consistency checks established before extending the study across the wider wafer
 set.
 
